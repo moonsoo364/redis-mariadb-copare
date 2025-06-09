@@ -192,8 +192,10 @@ MemberService
 | TOTAL | 527,240 | 3 | 1 | 1011 | 20.77 | 0.00% | 2929.11111 | 906.77 | 1161.35 | 317 |
 
 ### CPU
+![Image](https://github.com/user-attachments/assets/4aa82520-8f2c-482d-8c72-f642c1e55910)
 
 ### Heap
+![Image](https://github.com/user-attachments/assets/5222a2cc-4aff-4e48-a7c6-761911714f78)
 
 ## MariaDB
 
@@ -205,10 +207,10 @@ MemberService
 | TOTAL | 133,853 | 13 | 0 | 5042 | 246.41 | 0.24% | 734.24575 | 231.47 | 290.41 | 322.8 |
 
 ### CPU
-![Image](https://github.com/user-attachments/assets/4aa82520-8f2c-482d-8c72-f642c1e55910)
+![Image](https://github.com/user-attachments/assets/e44c7a1b-4754-4f1f-80d7-bb55bc905710)
 
 ### Heap
-![Image](https://github.com/user-attachments/assets/5222a2cc-4aff-4e48-a7c6-761911714f78)
+![Image](https://github.com/user-attachments/assets/1b307fa9-af9a-4749-922d-918f3f41ce4e)
 
 
 ## 결론
