@@ -24,7 +24,6 @@ import reactor.core.publisher.Mono;
 public class JwtAuthenticationFilter implements WebFilter {
 
     private final JwtUtil jwtUtil;
-    //private final MemberDao memberDao;
     private final MemberService memberService;
 
     @Override
@@ -39,7 +38,7 @@ public class JwtAuthenticationFilter implements WebFilter {
                     if (authHeader != null && authHeader.startsWith("Bearer ")) {
                         String token = authHeader.substring(7);
                         String userId = jwtUtil.getUsernameFromToken(token);
-
+                        //DB에서 User를 조회하는 부분
                         return memberService.findUserProjectionByUserId(userId)
                                 .filter(user -> jwtUtil.validateToken(token, userId))
                                 .map(Member::new)
