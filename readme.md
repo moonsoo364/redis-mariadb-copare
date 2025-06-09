@@ -205,8 +205,11 @@ MemberService
 | TOTAL | 133,853 | 13 | 0 | 5042 | 246.41 | 0.24% | 734.24575 | 231.47 | 290.41 | 322.8 |
 
 ### CPU
+![Image](https://github.com/user-attachments/assets/4aa82520-8f2c-482d-8c72-f642c1e55910)
 
 ### Heap
+![Image](https://github.com/user-attachments/assets/5222a2cc-4aff-4e48-a7c6-761911714f78)
+
 
 ## 결론
 
